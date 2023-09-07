@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./stylesheet.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="content">
+        <div class="calculator">
+            <div class="screen">
+                <div id="result"></div>
+                <!-- <p id="result">123.2</p> -->
+            </div>
+
+            <div class="buttons">
+                <!-- Numbers -->
+                <button class="boton" onclick="number(7)">7</button>
+                <button class="boton" onclick="number(8)">8</button>
+                <button class="boton" onclick="number(9)">9</button>
+                <button class="boton" onclick="number('-')">-</button>
+                <button class="boton" onclick="number(4)">4</button>
+                <button class="boton" onclick="number(5)">5</button>
+                <button class="boton" onclick="number(6)">6</button>
+                <button class="boton" onclick="number('X')">X</button>
+                <button class="boton" onclick="number(1)">1</button>
+                <!-- Operations -->
+                <button class="boton" onclick="number(2)">2</button>
+                <button class="boton" onclick="number(3)">3</button>
+                <button class="boton" onclick="operator()">/</button>
+                <button class="boton" >.</button>
+                <button class="boton" onclick="operator()">+</button>
+                <button class="boton">=</button>
+                <button class="boton">0</button>
+                <button class="boton span-2">Clear</button>
+                <button class="boton span-2">Delete</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
